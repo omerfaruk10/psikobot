@@ -2,7 +2,7 @@
 
 PsikoBot, kullanıcı mesajlarını duygu ve niyet bağlamında analiz eden, empatik ve psikolojik destek odaklı yanıtlar üreten bir yapay zekâ sohbet botudur.
 
-![PsikoBot Arayüzü](docs/psikobot_ui.jpg)
+![PsikoBot Arayüzü](docs/psikobot_ui.png)
 
 Bu projede iki büyük dil modeli karşılaştırmalı olarak entegre edilmiştir:
 
