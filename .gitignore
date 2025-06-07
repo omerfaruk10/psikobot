@@ -1,0 +1,6 @@
+# Python önbellek klasörleri
+__pycache__/
+*.pyc
+
+# Ortam değişkenlerini içeren dosya
+.env

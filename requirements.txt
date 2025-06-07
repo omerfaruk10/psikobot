@@ -1,0 +1,6 @@
+streamlit
+pandas
+scikit-learn
+openai
+google-generativeai
+python-dotenv
