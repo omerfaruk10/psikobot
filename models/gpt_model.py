@@ -37,4 +37,4 @@ def generate_reply(user_input, predicted_intent, chat_history):
         )
         return response.choices[0].message.content.strip()
     except Exception as e:
-        return f"Üzgünüm Bayım, bir hata oluştu: {e}"
+        return f"Üzgünüm, bir hata oluştu: {e}"

@@ -31,4 +31,4 @@ def generate_reply(user_input, predicted_intent, chat_history):
         response = llm.generate_content(prompt)
         return response.text.strip()
     except Exception as e:
-        return f"Üzgünüm Bayım, bir hata oluştu: {e}"
+        return f"Üzgünüm, bir hata oluştu: {e}"
