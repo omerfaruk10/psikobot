@@ -14,7 +14,7 @@ from models.gpt_model import generate_reply as gpt_reply
 from models.gemini_model import generate_reply as gemini_reply
 
 # --- Tema ---
-def set_modern_barca_theme_fullscreen():
+def set_theme():
     css = """
     <style>
     html, body {
@@ -69,7 +69,7 @@ def set_modern_barca_theme_fullscreen():
     st.markdown(css, unsafe_allow_html=True)
 
 # --- Başlık ve Tema ---
-set_modern_barca_theme_fullscreen()
+set_theme()
 st.title("𝚿 PsikoBot")
 
 # --- Model Seçimi ---
