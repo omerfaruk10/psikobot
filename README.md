@@ -4,8 +4,8 @@ PsikoBot, kullanıcı mesajlarını duygu ve niyet bağlamında analiz eden, emp
 
 Bu projede iki büyük dil modeli karşılaştırmalı olarak entegre edilmiştir:
 
-- **🔹 Gemini (gemini-1.5-flash / gemini-2.0-flash)**  
-- **🔹 OpenAI (gpt-3.5-turbo)**
+**🔹 Gemini (gemini-2.0-flash)**  
+**🔹 OpenAI (gpt-3.5-turbo)**
 
 ## 📂 Klasör Yapısı
 
