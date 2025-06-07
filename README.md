@@ -34,20 +34,22 @@ chatbot_project/
 
 ```bash
 pip install -r requirements.txt
-
+```
 2. .env dosyasına API anahtarlarınızı girin:
+```bash
 OPENAI_API_KEY=sk-...
 GOOGLE_API_KEY=AIza...
-
+```
 3. Uygulamayı başlatın:
 streamlit run app/streamlit_app.py
 
+```bash
 🎯 Özellikler
 - 🌐 GPT ve Gemini arasında kolay geçiş
 - 💬 Gerçek zamanlı sohbet geçmişi
 - 🧠 TF-IDF + Lojistik Regresyon ile niyet tahmini
 - 📊 Model metriklerinin terminale yazdırılması
 - 🎨 Özel temalı görsel arayüz
-
+```
 📌 Not
 Bu bot, tıbbi bir teşhis veya tedavi sunmaz. Yalnızca psikolojik destek amaçlı bir sohbet deneyimi sağlar.
