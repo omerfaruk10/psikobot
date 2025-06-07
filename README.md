@@ -8,7 +8,7 @@ Bu projede iki büyük dil modeli karşılaştırmalı olarak entegre edilmişti
 **🔹 OpenAI (gpt-3.5-turbo)**
 
 ## 📂 Klasör Yapısı
-
+```plaintext
 chatbot_project/
 │
 ├── app/ # Streamlit arayüzü ve giriş noktası
@@ -27,7 +27,7 @@ chatbot_project/
 ├── .env # API anahtarları
 ├── requirements.txt # Gerekli paketler
 └── README.md # Bu dosya
-
+```
 ## ⚙️ Kurulum ve Çalıştırma
 
 1. Gerekli kütüphaneleri yükleyin:
