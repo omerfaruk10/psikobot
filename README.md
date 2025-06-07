@@ -30,7 +30,7 @@ chatbot_project/
 
 ## ⚙️ Kurulum ve Çalıştırma
 
-### 1. Gerekli kütüphaneleri yükleyin:
+1. Gerekli kütüphaneleri yükleyin:
 
 ```bash
 pip install -r requirements.txt
