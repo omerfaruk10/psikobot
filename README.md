@@ -9,26 +9,22 @@ Bu projede iki büyük dil modeli karşılaştırmalı olarak entegre edilmişti
 **🔹 Gemini (gemini-2.0-flash)**  
 **🔹 OpenAI (gpt-3.5-turbo)**
 
----
 
 🧭 Desteklenen Niyet (Intent) Sınıfları
 
 Uygulama, kullanıcı ifadelerini çeşitli psikolojik niyet kategorilerine ayırarak yanıtlarını bu sınıfa göre biçimlendirir. Desteklenen sınıflar şunlardır:
 
-** greeting
-** goodbye
-** anxiety
-** depression
-** relationship
-** self-esteem
-** motivation
-** anger
-** confusion
-** gratitude
+🔹 greeting — selamlaşma ve karşılamalar
+🔹 farewell — vedalaşma ifadeleri
+🔹 gratitude — teşekkür ve minnettarlık
+🔹 anxiety — kaygı, endişe ve huzursuzluk
+🔹 loneliness — yalnızlık hissi
+🔹 motivation — motive edici ve pozitif düşünceler
+🔹 stress — baskı, stres ve tükenmişlik ifadeleri
+🔹 rejection — reddetme, kabul etmeme tutumları
 
 Bu sınıflar, eğitilmiş TF-IDF + Lojistik Regresyon modeli tarafından tahmin edilmekte ve yanıt üretiminde bağlamsal rehber olarak kullanılmaktadır.
 
----
 
 
 ## 📂 Klasör Yapısı
