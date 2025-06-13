@@ -10,7 +10,7 @@ Bu projede iki büyük dil modeli karşılaştırmalı olarak entegre edilmişti
 **🔹 OpenAI (gpt-3.5-turbo)**
 
 
-🧭 Desteklenen Niyet (Intent) Sınıfları
+## 🧭 Desteklenen Niyet (Intent) Sınıfları
 
 Uygulama, kullanıcı ifadelerini çeşitli psikolojik niyet kategorilerine ayırarak yanıtlarını bu sınıfa göre biçimlendirir. Desteklenen sınıflar şunlardır:
 
