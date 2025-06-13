@@ -14,14 +14,14 @@ Bu projede iki büyük dil modeli karşılaştırmalı olarak entegre edilmişti
 
 Uygulama, kullanıcı ifadelerini çeşitli psikolojik niyet kategorilerine ayırarak yanıtlarını bu sınıfa göre biçimlendirir. Desteklenen sınıflar şunlardır:
 
-🔹 greeting — selamlaşma ve karşılamalar
-🔹 farewell — vedalaşma ifadeleri
-🔹 gratitude — teşekkür ve minnettarlık
-🔹 anxiety — kaygı, endişe ve huzursuzluk
-🔹 loneliness — yalnızlık hissi
-🔹 motivation — motive edici ve pozitif düşünceler
-🔹 stress — baskı, stres ve tükenmişlik ifadeleri
-🔹 rejection — reddetme, kabul etmeme tutumları
+🔹 greeting — selamlaşma ve karşılamalar  
+🔹 farewell — vedalaşma ifadeleri  
+🔹 gratitude — teşekkür ve minnettarlık  
+🔹 anxiety — kaygı, endişe ve huzursuzluk  
+🔹 loneliness — yalnızlık hissi  
+🔹 motivation — motive edici ve pozitif düşünceler  
+🔹 stress — baskı, stres ve tükenmişlik ifadeleri  
+🔹 rejection — reddetme, kabul etmeme tutumları  
 
 Bu sınıflar, eğitilmiş TF-IDF + Lojistik Regresyon modeli tarafından tahmin edilmekte ve yanıt üretiminde bağlamsal rehber olarak kullanılmaktadır.
 
