@@ -53,5 +53,4 @@ streamlit run app/streamlit_app.py
 - 📊 Model metriklerinin terminale yazdırılması
 - 🎨 Özel temalı görsel arayüz
 ```
-📌 Not
-Bu bot, tıbbi bir teşhis veya tedavi sunmaz. Yalnızca psikolojik destek amaçlı bir sohbet deneyimi sağlar.
+
