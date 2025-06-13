@@ -9,6 +9,32 @@ Bu projede iki büyük dil modeli karşılaştırmalı olarak entegre edilmişti
 **🔹 Gemini (gemini-2.0-flash)**  
 **🔹 OpenAI (gpt-3.5-turbo)**
 
+---
+
+🧭 Desteklenen Niyet (Intent) Sınıfları
+
+PsikoBot, kullanıcının yazdığı ifadeyi aşağıdaki duygusal niyet kategorilerinden birine sınıflandırarak, bu bağlamda empatik bir yanıt üretir:
+
+🎯 Niyet (Intent)	📝 Açıklama
+
+greeting	Selamlaşma, tanışma ifadeleri
+goodbye	Veda, sohbeti sonlandırma
+anxiety	Kaygı, stres, huzursuzluk belirtileri
+depression	Mutsuzluk, isteksizlik, depresif ruh hali
+relationship	Aile, arkadaşlık ya da romantik ilişkilerle ilgili duygular
+self-esteem	Özgüven eksikliği, kendini yetersiz hissetme
+motivation	Umut, hedef koyma, yeniden deneme arzusu
+anger	Öfke, sinirlilik, patlama eğilimi
+confusion	Kararsızlık, belirsizlik, zihinsel bulanıklık
+gratitude	Teşekkür, minnettarlık, olumlu geri bildirim
+
+
+Bu sınıflar, TF-IDF ile vektörleştirilmiş ve lojistik regresyon modeli ile eğitilmiştir. Ayrıca seçilen modele (GPT veya Gemini) iletilerek bağlama uygun cevap üretilmesini sağlar.
+
+
+---
+
+
 ## 📂 Klasör Yapısı
 ```plaintext
 chatbot_project/
