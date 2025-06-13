@@ -13,24 +13,30 @@ Bu projede iki büyük dil modeli karşılaştırmalı olarak entegre edilmişti
 
 🧭 Desteklenen Niyet (Intent) Sınıfları
 
-PsikoBot, kullanıcının yazdığı ifadeyi aşağıdaki duygusal niyet kategorilerinden birine sınıflandırarak, bu bağlamda empatik bir yanıt üretir:
+Uygulama, kullanıcı ifadelerini çeşitli psikolojik niyet kategorilerine ayırarak yanıtlarını bu sınıfa göre biçimlendirir. Desteklenen sınıflar şunlardır:
 
-🎯 Niyet (Intent)	📝 Açıklama
+greeting
 
-greeting	Selamlaşma, tanışma ifadeleri
-goodbye	Veda, sohbeti sonlandırma
-anxiety	Kaygı, stres, huzursuzluk belirtileri
-depression	Mutsuzluk, isteksizlik, depresif ruh hali
-relationship	Aile, arkadaşlık ya da romantik ilişkilerle ilgili duygular
-self-esteem	Özgüven eksikliği, kendini yetersiz hissetme
-motivation	Umut, hedef koyma, yeniden deneme arzusu
-anger	Öfke, sinirlilik, patlama eğilimi
-confusion	Kararsızlık, belirsizlik, zihinsel bulanıklık
-gratitude	Teşekkür, minnettarlık, olumlu geri bildirim
+goodbye
+
+anxiety
+
+depression
+
+relationship
+
+self-esteem
+
+motivation
+
+anger
+
+confusion
+
+gratitude
 
 
-Bu sınıflar, TF-IDF ile vektörleştirilmiş ve lojistik regresyon modeli ile eğitilmiştir. Ayrıca seçilen modele (GPT veya Gemini) iletilerek bağlama uygun cevap üretilmesini sağlar.
-
+Bu sınıflar, eğitilmiş TF-IDF + Lojistik Regresyon modeli tarafından tahmin edilmekte ve yanıt üretiminde bağlamsal rehber olarak kullanılmaktadır.
 
 ---
 
